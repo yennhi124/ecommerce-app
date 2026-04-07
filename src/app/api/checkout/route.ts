@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 import { stripe } from "@/lib/stripe";
-import prisma from "@/lib/prisma";
-
+import { prisma } from "@/lib/prisma";
 export async function POST(req: Request) {
   try {
     const { items, email } = await req.json();

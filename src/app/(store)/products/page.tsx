@@ -1,4 +1,4 @@
-import prisma from "@/lib/prisma"
+import { prisma } from "@/lib/prisma";
 import ProductCard from "@/components/store/ProductCard"
 import ProductFilters from "@/components/store/ProductFilters"
 
